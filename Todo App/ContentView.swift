@@ -8,9 +8,14 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    init() {
+        UITextView.appearance().backgroundColor = .clear
+    }
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        
+        HomeView()
     }
 }
 
